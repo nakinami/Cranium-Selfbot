@@ -1,0 +1,31 @@
+{
+  "token": "token-chan owo",
+  "ownerID": "owner id-san UwU",
+  "prefix": "x",
+  "defaultStatus": "idle",
+  "tconsumerkey": "keys for a twitter command",
+  "tconsumersecret": "keys for a twitter command",
+  "taccesstokenkey": "keys for a twitter command",
+  "taccesstokensecret": "keys for a twitter command",
+  "mentionNotificator": {
+    "inConsole": true,
+    "inNotificationChannel": false,
+    "logBlockedUsers": false,
+    "ignoredServers": ["SERVER ID"]
+  },
+  "keywordNotificator": {
+    "inConsole": true,
+    "inNotificationChannel": false,
+    "logBlockedUsers": false,
+    "caseInsensitive": true,
+    "ignoredServers": ["SERVER ID"]
+  },
+  "eventNotificator": {
+    "inConsole": true,
+    "inNotificationChannel": false
+  },
+  "notificationChannelID": "Notification channel ID if you set 'inNotificationChannel' to true at least once",
+  "defaultEmbedColor": "#117ea6",
+  "deleteCommandMessages": false,
+  "deleteCommandMessagesTime": 10000
+}
